@@ -1,0 +1,66 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   background: linear-gradient(to right,rgb(39, 33, 33), rgb(97, 91, 91), rgb(21, 21, 21));
+   width: 100vw;
+   height: 100vh;
+   border: solid rgb(213, 211, 211) 0.3rem;
+   border-radius: 1rem;
+}
+
+/* STYLING THE HEADING */
+h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* margin: 3rem; */
+   /* padding: 5rem; */
+   font-size: 3rem;
+   opacity: 0.5;
+   z-index: 5;
+}
+
+/* MAIN APP COVER */
+.main-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* USING FLEX TO POSITION THE APP IN THE CENTER AND IN ROWS */
+.clock-app{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10rem;
+}
+
+/* STYLING THE HOUR MINUTE AND SECONDS */
+
+.group-style{
+   width: 10rem;
+   height: 10rem;
+   border: solid rgb(234, 75, 75) 0.15rem;
+   border-radius: 1rem;
+   background: linear-gradient(to right,rgb(25, 6, 31), rgb(38, 2, 34),rgb(33, 6, 39),rgb(22, 1, 24));
+   font-size: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(109, 100, 100);
+   transition: 1s ease-in-out;
+   margin: 0.02rem;
+   box-shadow: 1px 1px 10px purple;
+}
+
+.group-style:hover{
+   opacity: 0.9;
+   color: rgb(238, 0, 0);
+   border: solid rgba(255, 0, 0, 0.895) 0.15rem;
+}
+
+.red-color{
+   color: brown;
+   opacity: 1;
+}
